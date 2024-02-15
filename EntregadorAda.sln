@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntregadorAda", "EntregadorAda\EntregadorAda.csproj", "{A06FE7F8-4CEF-4674-A9E4-119B46DA6904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados", "Dados\Dados.csproj", "{E673AA1F-A8E4-48A7-8090-3B919202EDC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A06FE7F8-4CEF-4674-A9E4-119B46DA6904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A06FE7F8-4CEF-4674-A9E4-119B46DA6904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A06FE7F8-4CEF-4674-A9E4-119B46DA6904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A06FE7F8-4CEF-4674-A9E4-119B46DA6904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E673AA1F-A8E4-48A7-8090-3B919202EDC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E673AA1F-A8E4-48A7-8090-3B919202EDC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E673AA1F-A8E4-48A7-8090-3B919202EDC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E673AA1F-A8E4-48A7-8090-3B919202EDC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {835EDF73-F87F-4468-8CBC-86EEB5145A55}
+	EndGlobalSection
+EndGlobal
