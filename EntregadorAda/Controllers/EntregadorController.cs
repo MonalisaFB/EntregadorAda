@@ -1,34 +1,43 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Dados.Models;
-using Dados;
-using EntregadorAda.Filters;
+using EntregadorAda.Request;
+using Dados.Repositorio;
+
 
 
 namespace EntregadorAda.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("[controller]")]
     [ApiController]
     public class EntregadorController : ControllerBase
     {
         private readonly IEntregadorRepositorio _entregadorRepositorio;
+
         public EntregadorController(IEntregadorRepositorio entregadorRepositorio)
         {
             _entregadorRepositorio = entregadorRepositorio;
         }
 
-        [HttpPost]
-        [ServiceFilter(typeof(AutorizacaoFiltro))]
-        [ServiceFilter(typeof(ExcecaoFiltro))]
-
-        public IActionResult From([FromBody] EntregadorModel entregador)
+        [HttpGet]
+        public IActionResult Get([FromQuery] string? cpf = null)
         {
-            try
-            {
-                var novoEntregador
-            }
+            var entregador = _entregadorRepositorio.ConsultarCpf(cpf);
+            return Ok(entregador);
         }
 
-        
+        [HttpPost]
+        public IActionResult Post([FromBody] EntregadorRequest entregadorRequest)
+        {
+            var entregador = new EntregadorModel(entregadorRequest.Nome, entregadorRequest.CPF,
+                entregadorRequest.Veiculo, entregadorRequest.Email, entregadorRequest.Nascimento, 
+                entregadorRequest.Cidade, entregadorRequest.Estado);
+            
+            _entregadorRepositorio.CadastrarEntregador(entregador);
+            return Ok(entregadorRequest);
+        }
+
+      
+
+
     }
 }

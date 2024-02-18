@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EntregadorAda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4064882b655af8368cf4ce264141ec20390738f")]
 [assembly: System.Reflection.AssemblyProductAttribute("EntregadorAda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EntregadorAda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

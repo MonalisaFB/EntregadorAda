@@ -1,3 +1,4 @@
+using Dados.Repositorio;
 
 namespace EntregadorAda
 {
@@ -14,6 +15,8 @@ namespace EntregadorAda
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddSingleton<IEntregadorRepositorio, EntregadorRepositorio >();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -23,11 +26,11 @@ namespace EntregadorAda
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseAuthorization();
 
-
+         
             app.MapControllers();
 
             app.Run();

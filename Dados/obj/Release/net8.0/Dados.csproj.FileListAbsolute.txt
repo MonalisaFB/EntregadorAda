@@ -1,0 +1,5 @@
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\Dados\obj\Release\net8.0\Dados.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\Dados\obj\Release\net8.0\Dados.AssemblyInfoInputs.cache
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\Dados\obj\Release\net8.0\Dados.AssemblyInfo.cs
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\Dados\obj\Release\net8.0\Dados.csproj.CoreCompileInputs.cache
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\Dados\obj\Release\net8.0\Dados.sourcelink.json

@@ -1,0 +1,7 @@
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.csproj.AssemblyReference.cache
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.AssemblyInfoInputs.cache
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.AssemblyInfo.cs
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.csproj.CoreCompileInputs.cache
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\monalisab\OneDrive\Desktop\Curso ADA\AtividadesMe\EntregadorAda\EntregadorAda\obj\Release\net8.0\EntregadorAda.sourcelink.json
